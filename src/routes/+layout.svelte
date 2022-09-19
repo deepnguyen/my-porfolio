@@ -5,7 +5,6 @@
 	import { navigating } from '$app/stores';
 	import { onMount } from 'svelte';
 	import { auth } from '../Firebase';
-	import { getStores } from '$app/stores';
 	// * Components
 	import Nav from '../components/nav.svelte';
 	// * Variables & Constants
