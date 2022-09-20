@@ -1,12 +1,12 @@
 <script>
 	// * Imports
 	import { goto } from '$app/navigation';
-	import { auth } from '../../Firebase';
+	import { auth } from '../../../Firebase';
 	import { signInWithEmailAndPassword } from 'firebase/auth';
 	// import { setDoc } from "firebase/firestore/lite";
 	// * Components
-	import SignIn from '../../components/auth/sign_in_form.svelte';
-	import Toast from '../../components/toast/toast.svelte';
+	import SignIn from '../../../components/auth/sign_in_form.svelte';
+	import Toast from '../../../components/toast/toast.svelte';
 	// * Variables & Constants
 	let errors;
 	// * Functions
